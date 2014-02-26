@@ -2,7 +2,8 @@
 <resources>
 
     <string name="hello">Hello World, MainActivity!</string>
-	<string name="app_name">Audio Tag</string>
+    <string name="app_name">음악첨부</string>
+	<string name="appnameus">Audio Tag</string>
 	<string name="help">/n게시글 작성시 원하는곳에 붙여 넣으세요</string>
 
 </resources>

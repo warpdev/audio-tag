@@ -9,7 +9,7 @@
 
 	<TextView
 		android:layout_height="wrap_content"
-		android:text="아래에 음악파일주소를 써주세요"
+		android:text="Write the music url the textbox"
 		android:textAppearance="?android:attr/textAppearanceMedium"
 		android:layout_width="wrap_content"/>
 
@@ -21,7 +21,7 @@
 
 	<Button
 		android:layout_height="wrap_content"
-		android:text="음악첨부코드생성"
+		android:text="Create audio tag"
 		android:layout_width="wrap_content"
 		android:id="@+id/create_button"/>
 
