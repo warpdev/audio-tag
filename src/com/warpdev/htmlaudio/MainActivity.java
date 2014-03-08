@@ -20,7 +20,7 @@ public class MainActivity extends Activity
 	private AdView adView;
 	private Button crb;
 	private String urlk;
-	private static final String MY_AD_UNIT_ID="a150f55d425b36b";
+	private static final String MY_AD_UNIT_ID="a15319f9689b5f8";
 	// copy나 paste 를 하기 위한 EditText control
 	private EditText mEditText;
 // clipboardmanager에 copy 하기 위한 함수
@@ -71,11 +71,11 @@ public class MainActivity extends Activity
 					AlertDialog.Builder dlg=new AlertDialog.Builder(MainActivity.this);
 					if(lancode.equals("ko")){
 						dlg.setTitle("성공");
-					dlg.setMessage("클립보드에 복사되었습니다"+"   게시글 작성시 원하는곳에 붙여 넣으세요");
+					dlg.setMessage("클립보드에 복사되었습니다."+"\n게시글 작성시 원하는곳에 붙여 넣으세요.");
 						dlg.setPositiveButton("확인",null);
 						}else{
 							dlg.setTitle("Success");
-							dlg.setMessage("Audio Tag copied to Clipboard."+"   Paste where you want.");
+							dlg.setMessage("Audio Tag copied to Clipboard."+"\nPaste where you want.");
 							dlg.setPositiveButton("Okay",null);
 						}
 						
